@@ -58,7 +58,7 @@
 
 #include <OctoWS2811.h>
 
-#define COLUMNS      (64)  // all of the following params need to be adjusted for screen size
+#define COLUMNS      (60)  // all of the following params need to be adjusted for screen size
 #define ROWS         (36)  // LED_LAYOUT assumed 0 if ROWS_LEDs > 8
 #define PINS_USED    (3)
 

@@ -49,10 +49,10 @@ import java.awt.AWTException;
 
 Robot robot;
 
-final int SCREEN_WIDTH = 64;
+final int SCREEN_WIDTH = 60;
 final int SCREEN_HEIGHT = 36;
 
-final int PANEL_WIDTH=64;
+final int PANEL_WIDTH=60;
 final int PANEL_HEIGHT=12;
 final int LEDS_PER_STRIP = PANEL_WIDTH * PANEL_HEIGHT;
 

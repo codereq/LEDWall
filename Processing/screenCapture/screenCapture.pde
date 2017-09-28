@@ -186,7 +186,7 @@ void serialConfigure(String portName) {
   }
   */
   print("port "+numPorts+": ");
-  String line = "64,36,0,0,0,0,0,100,100,0,0,0";
+  String line = "" + SCREEN_WIDTH+","+SCREEN_HEIGHT+",0,0,0,0,0,100,100,0,0,0";
   String param[] = line.split(",");
   if (param.length != 12) {
     println("Error: port " + portName + " did not respond to LED config query");
